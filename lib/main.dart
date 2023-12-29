@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getxapi/user/view/homepage.dart';
+import 'package:getxapi/user_update_delete/user_home_page.dart';
 import 'package:getxapi/view/user_view.dart';
 
 void main() {
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'GetX Api',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -36,7 +38,7 @@ class MyApp extends StatelessWidget {
       ),
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
      // home: UserViewDetails(),
-     home: HomePage(),
+     home: UserDetailHomePage(),
     );
   }
 }
