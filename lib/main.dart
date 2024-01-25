@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getxapi/user/view/homepage.dart';
+import 'package:getxapi/user_detail/view/user_detail_view.dart';
 import 'package:getxapi/user_update_delete/user_home_page.dart';
 import 'package:getxapi/view/user_view.dart';
 
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
       ),
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
      // home: UserViewDetails(),
-     home: UserDetailHomePage(),
+     home: UserDetail(),
+    // home: HomePage()
     );
   }
 }
